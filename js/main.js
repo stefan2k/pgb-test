@@ -37,7 +37,6 @@ var app = {
         this.store = new MemoryStore(function() {
 			self.renderHomeView();
 		});
-        $('.search-key').on('keyup', $.proxy(this.findByName, this));
     }
 	
 
